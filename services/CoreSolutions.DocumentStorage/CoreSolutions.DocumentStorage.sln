@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{58912A73-220E-4C71-B5A6-07946737FD84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreSolutions.DocumentStorage", "src\CoreSolutions.DocumentStorage\CoreSolutions.DocumentStorage.csproj", "{12E2ED5F-84CA-4C06-A945-BA4E22562A19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreSolutions.DocumentStorage.Abstract", "src\CoreSolutions.DocumentStorage.Abstract\CoreSolutions.DocumentStorage.Abstract.csproj", "{7F5F9472-87BC-4F45-A47A-1876DEA16F3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreSolutions.DocumentStorage.AmazonS3", "src\CoreSolutions.DocumentStorage.AmazonS3\CoreSolutions.DocumentStorage.AmazonS3.csproj", "{A50B3D89-715F-4C23-9FCF-65A3083AB39D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreSolutions.DocumentStorage.AzureBlobStorage", "src\CoreSolutions.DocumentStorage.AzureBlobStorage\CoreSolutions.DocumentStorage.AzureBlobStorage.csproj", "{E9F82113-F4E8-4BCF-BF90-5A4EC8CED0F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreSolutions.DocumentStorage.Contracts", "src\CoreSolutions.DocumentStorage.Contracts\CoreSolutions.DocumentStorage.Contracts.csproj", "{858482B3-3756-4ADC-B7AB-6AC6E4150342}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreSolutions.DocumentStorage.DependencyInjection", "src\CoreSolutions.DocumentStorage.DependencyInjection\CoreSolutions.DocumentStorage.DependencyInjection.csproj", "{CB6C6E20-2A23-4DDB-98BE-4D1248590694}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12E2ED5F-84CA-4C06-A945-BA4E22562A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E2ED5F-84CA-4C06-A945-BA4E22562A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E2ED5F-84CA-4C06-A945-BA4E22562A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E2ED5F-84CA-4C06-A945-BA4E22562A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F5F9472-87BC-4F45-A47A-1876DEA16F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F5F9472-87BC-4F45-A47A-1876DEA16F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F5F9472-87BC-4F45-A47A-1876DEA16F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F5F9472-87BC-4F45-A47A-1876DEA16F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A50B3D89-715F-4C23-9FCF-65A3083AB39D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50B3D89-715F-4C23-9FCF-65A3083AB39D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A50B3D89-715F-4C23-9FCF-65A3083AB39D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50B3D89-715F-4C23-9FCF-65A3083AB39D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9F82113-F4E8-4BCF-BF90-5A4EC8CED0F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9F82113-F4E8-4BCF-BF90-5A4EC8CED0F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9F82113-F4E8-4BCF-BF90-5A4EC8CED0F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9F82113-F4E8-4BCF-BF90-5A4EC8CED0F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{858482B3-3756-4ADC-B7AB-6AC6E4150342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{858482B3-3756-4ADC-B7AB-6AC6E4150342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{858482B3-3756-4ADC-B7AB-6AC6E4150342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{858482B3-3756-4ADC-B7AB-6AC6E4150342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB6C6E20-2A23-4DDB-98BE-4D1248590694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB6C6E20-2A23-4DDB-98BE-4D1248590694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB6C6E20-2A23-4DDB-98BE-4D1248590694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB6C6E20-2A23-4DDB-98BE-4D1248590694}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12E2ED5F-84CA-4C06-A945-BA4E22562A19} = {58912A73-220E-4C71-B5A6-07946737FD84}
+		{7F5F9472-87BC-4F45-A47A-1876DEA16F3F} = {58912A73-220E-4C71-B5A6-07946737FD84}
+		{A50B3D89-715F-4C23-9FCF-65A3083AB39D} = {58912A73-220E-4C71-B5A6-07946737FD84}
+		{E9F82113-F4E8-4BCF-BF90-5A4EC8CED0F9} = {58912A73-220E-4C71-B5A6-07946737FD84}
+		{858482B3-3756-4ADC-B7AB-6AC6E4150342} = {58912A73-220E-4C71-B5A6-07946737FD84}
+		{CB6C6E20-2A23-4DDB-98BE-4D1248590694} = {58912A73-220E-4C71-B5A6-07946737FD84}
+	EndGlobalSection
+EndGlobal
